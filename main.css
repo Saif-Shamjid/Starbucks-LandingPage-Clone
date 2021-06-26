@@ -11,13 +11,19 @@
 }
 
 .announcements span {
-    padding-top: 2.4rem;
-    padding-bottom: 2.4rem;
+    /* padding-top: 2.4rem;
+    padding-bottom: 2.4rem; */
+    padding-top: 32px;
+    padding-bottom: 32px;
     max-width: 60%;
     text-align: center;
     font-size: 22px;
-    line-height: 1.75;
-    font-weight: 500;
+    line-height: 1.47;
+    font-weight: 300;
+}
+
+.announcements span a:hover {
+    text-decoration: none;
 }
 
 .left-right-section {
@@ -85,3 +91,95 @@
     font-size: 24px;
     line-height: 1.5;
 }
+
+section {
+    display: flex;
+}
+
+.top-bottom-section {
+    width: 50%;
+}
+
+.section-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-bottom-section .image {
+    width: 100%;
+}
+
+.top-bottom-section .image img {
+    width: 100%;
+}
+ .top-bottom-section .text {
+    display: flex;
+    flex-direction: column;
+    
+ }
+
+ .top-bottom-section .text .cta-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .top-bottom-section:first-child .section-container {
+    margin-right: 16px;
+ }
+
+ .top-bottom-section:last-child .section-container {
+     margin-left: 16px;
+ }
+
+ .top-bottom-section .image {
+    display: flex;
+ }
+
+ .top-bottom-section .text {
+    background-color: #d4e9e2;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-bottom: 32px;
+    padding-top: 16px;
+    color: #1e3932;
+    flex-grow: 1;
+    font-size: 16px;
+ }
+
+ .top-bottom-section .text h1 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 24px;
+ }
+
+ .top-bottom-section .text h3 {
+    font-size: 19px;
+    line-height: 1.75;
+ }
+
+ .top-bottom-section {
+    display: flex;
+    margin-bottom: 32px;
+ }
+
+ .celebrating .text{
+    padding: 32px 40px;
+    background-color: #d4e9e2;
+ }
+
+ .celebrating .text h1 {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -0.16px;
+    line-height: 36px;
+    color: black;
+ }
+
+ .celebrating .text h3 {
+    color: black;
+    font-size: 19px;
+    font-weight: 530;
+    letter-spacing: -0.16px;
+    line-height: 1.75;
+ }
